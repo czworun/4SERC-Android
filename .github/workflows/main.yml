@@ -4,7 +4,7 @@ on: [push, workflow_dispatch]
 
 jobs:
   build:
-    runs-on: ubuntu-22.04  # Używamy starszej wersji Ubuntu
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -35,5 +35,4 @@ jobs:
         with:
           name: 4SERC-Modeler-APK
           path: bin/*.apk
-          retention-days: 90          path: bin/*.apk
           retention-days: 90

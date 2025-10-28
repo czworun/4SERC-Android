@@ -1,0 +1,6 @@
+# requirements.txt
+kivy
+numpy
+matplotlib
+pillow
+cython
